@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tets</title>
+    <script src="../socket.io/socket.io.js"></script>
+</head>
+<body>
+<p>welcome </p><div id = "userName"></div></p>
+
+<form action = "createRoom" method = "post">
+    roomName:
+    <input type = "name" name = "roomName"></input>
+    <input value = "submit" type = "submit"></input>
+</form>
+<button onclick =loadRooms()>load rooms</button>
+<div id = "chat">
+
+</div>
+
+<div id = "allRooms">
+    someText
+</div>
+
+<div id = "chatArea">
+
+
+
+</div>
+<input type = "text" id = "chatText"></input>
+<button onClick = sendMsg()>send</button>
+
+<script src="./chat.js"></script>
+<script>
+    // let roomID = "";
+    // let socket = io();
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
